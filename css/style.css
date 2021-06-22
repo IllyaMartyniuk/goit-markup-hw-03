@@ -9,6 +9,12 @@
 .body {
   font-family: var(--main-font);
 }
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
 /*_________HEADER_________*/
 
 .logo {
@@ -89,7 +95,7 @@
 /*_________HERO_________*/
 .hero {
   text-align: center;
-  background-color: tomato;
+  background-color: violet;
 }
 .title-hero {
   margin-top: 0;
@@ -123,7 +129,6 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  background-color: tomato;
 }
 .sabtitle-content {
   margin-top: 0;
