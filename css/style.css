@@ -13,18 +13,28 @@
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
 }
 /*_________HEADER_________*/
+.header {
+  border-bottom: 1px solid #ececec;
+}
 
 .logo {
   text-decoration: none;
 }
+
 .menu-list {
+  display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
 }
+.menu-li:not(:last-child) {
+  margin-right: 50px;
+}
+/*.menu-li {
+  margin-right: 50px;
+}*/
 .menu-link {
   text-decoration: none;
 }
