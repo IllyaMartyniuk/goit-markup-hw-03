@@ -95,7 +95,6 @@
 /*_________HERO_________*/
 .hero {
   text-align: center;
-  background-color: violet;
 }
 .title-hero {
   margin-top: 0;
@@ -206,13 +205,17 @@
 }
 /*_________ AND SECTION3_________*
 /*_________ FOOTER_________*/
+.footer {
+  background-color: #2f303a;
+}
 .text-adress {
+  margin: 0;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /*color: #ffffff;*/
+  color: #ffffff;
 }
 .mail-adress-link {
   font-style: normal;
@@ -220,7 +223,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /*color: rgba(255, 255, 255, 0.6);*/
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 .tel-adress-link {
@@ -229,8 +232,11 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /*color: rgba(255, 255, 255, 0.6);*/
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+.logo-text-footer {
+  color: #ffffff;
 }
 /*_________ AND FOOTER_________*/
 
