@@ -153,10 +153,20 @@ img {
 /*_________ AND HERO_________*/
 
 /*_________ SECTION1_________*/
+.section-content {
+  padding: 94px;
+}
 .content {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+.container-list {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.item-content {
+  width: 270px;
 }
 .sabtitle-content {
   margin-top: 0;
@@ -257,7 +267,7 @@ img {
   margin-bottom: 9px;
 }
 .footer-contact {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
 }
 
