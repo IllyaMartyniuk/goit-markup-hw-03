@@ -32,7 +32,6 @@ img {
   text-decoration: none;
   display: block;
   margin-right: 93px;
-  padding: 32px;
 }
 
 .menu-list {
@@ -42,8 +41,6 @@ img {
 }
 .menu-li .menu-link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .menu-li:not(:last-child) {
   margin-right: 50px;
@@ -88,7 +85,6 @@ img {
   color: #212121;
 }
 .mail-link {
-  padding: 32px;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -97,7 +93,6 @@ img {
   color: var(--main-text-color);
 }
 .tel-link {
-  padding: 32px;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
