@@ -114,6 +114,9 @@ img {
 .tel-link:focus {
   color: var(--hover-focus-color);
 }
+.current {
+  color: var(--hover-focus-color);
+}
 /*_________AND HEADER_________*/
 /*_________HERO_________*/
 .container-hero {
